@@ -1,6 +1,6 @@
 # Express app example
 
-> This application is used as example for my personnal workshops.
+> This application is used as example for my personnal workshops Youpie.
 
 ## Getting started
 
@@ -27,6 +27,6 @@ npm test
 
 The following environment variables can be used to custom the app:
 
-Variable | Requirement | Description | Default value
---- | --- | ---  | ---
-`PORT` | *Optionnal* | The default port on which the app is served. | 5000
+| Variable | Requirement | Description                                  | Default value |
+| -------- | ----------- | -------------------------------------------- | ------------- |
+| `PORT`   | *Optionnal* | The default port on which the app is served. | 5000          |
