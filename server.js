@@ -4,12 +4,12 @@ const createServer = function() {
   const express = require('express')
   const app = express()
 
-  app.get('/', function (req, res) {
-    res.send('Hello World! I have a CI!')
+  app.get('/', function(req, res) {
+    res.send('Hello World!')
   })
 
   const server = app.listen(PORT, function() {
-    console.log(`Listening on ${ PORT }…`)
+    console.log(`Listening on ${PORT}…`)
   })
 
   return server
